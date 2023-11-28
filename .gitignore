@@ -32,3 +32,4 @@
 *.app
 
 step1_build
+.vscode
