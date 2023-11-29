@@ -8,7 +8,6 @@ option(USE_MYMATH "Use tutorial provided math implementation" ON)
 option(BUILD_DYNAMIC_LIB "Build dynamic library" ON)
 
 add_subdirectory(MathFunctions)
-add_subdirectory(TimeWheel)
 
 add_executable(${PROJECT_NAME} tutorial.cpp)
 configure_file(project_config.h.in ${PROJECT_SOURCE_DIR}/include/project_config.h)
