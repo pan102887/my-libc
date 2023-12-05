@@ -1,8 +1,7 @@
-#ifndef _EXPORT_API_H_
+﻿#ifndef _EXPORT_API_H_
 #define _EXPORT_API_H_
 
-#if defined(_WIN32) && defined(_MSC_VER) && defined(USE_DLL)
-
+#if defined(_MSC_VER) && defined(USE_DLL)
 
 #if defined(EXPORT_DLL)
 #define EXPORT_API __declspec(dllexport)
