@@ -3,8 +3,6 @@
 
 #if defined(_MSC_VER)
 #define __attribute__(x)
-#define container_of(ptr, type, member) \
-        ((type *)((void *)(ptr) - (char *)(&((void *)0)->member)))
 #endif
 
 #endif

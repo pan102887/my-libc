@@ -3,6 +3,7 @@
 
 #include "crb_tree_type.h"
 #include "ExportApi.h"
+#include "my_libc_micro.h"
 #if defined(__cplusplus)
 extern "C" {
 #endif
